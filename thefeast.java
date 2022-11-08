@@ -8,7 +8,7 @@ public class thefeast {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("total test cases: ");
+		System.out.println("Total test cases: ");
 		int totalTests = in.nextInt();
 		List<int[]> testcases = new ArrayList<int[]>();
 		boolean isFinish = false;
@@ -23,7 +23,6 @@ public class thefeast {
 				testcase[i] = inNum;
 			}
 			System.out.println("-");
-			System.out.println(index);
 			bars = theFeast(testcases.get(index));
 			System.out.println("The total bars is " + bars);
 			index++;
